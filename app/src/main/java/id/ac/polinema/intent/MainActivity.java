@@ -6,6 +6,8 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import id.ac.polinema.intent.model.User;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -29,6 +31,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void handleButtonBundleIntent(View view) {
         Intent intent = new Intent(this, BundleActivity.class);
+        startActivity(intent);
+    }
+
+    public void handleParcelable(View view) {
+        Intent intent = new Intent(this, ParcelableActivity.class);
         startActivity(intent);
     }
 }

@@ -26,8 +26,6 @@ public class BundleActivity extends AppCompatActivity {
         nameInput = findViewById(R.id.input_name);
         ageInput = findViewById(R.id.input_age);
 
-
-
 }
 
     public void handleSubmit(View view) {
